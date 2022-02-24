@@ -18,7 +18,8 @@
         "rootDir": "./",
         "outDir": "build",
         "sourceMap": true,
-        "paths": {}
+        "paths": {},
+        "types": ["@adonisjs/core", "@types/node"]
     },
     "include": ["**/*"],
     "exclude": ["node_modules", "build"]
